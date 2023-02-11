@@ -8,8 +8,8 @@ export default function Profile({src,alt,contact,des,email}:profileProp){
                 className={styles.img}
                 src={src}
                 alt={alt}
-                width={75}
-                height={75}
+                width={100}
+                height={100}
             />
             <p className={styles.name}>{alt}</p>
             <p>{des}</p>
