@@ -137,7 +137,7 @@ export default function Navbar(){
         <nav className={styles.socials} id="bottom">
             <ul>
                 <li>
-                    <Link href="">
+                    <Link href="https://instagram.com/goonj.uietpu?igshid=YmMyMTA2M2Y=" target="_blank">
                         <Image
                         src="/logos/insta.png"
                         alt="Instagram"

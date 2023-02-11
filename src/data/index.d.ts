@@ -13,5 +13,6 @@ interface eventTileProp {
 interface profileProp {
   src: string;
   alt: string;
+  des: string;
   contact: string;
 }

@@ -1,27 +1,32 @@
 export const Faculty = [
   {
     src: "",
-    alt: "Dr. Shankar Sehgal (Convener)",
+    alt: "Dr. Shankar Sehgal",
+    des: "Convener, Faculty Coordination Committee",
     contact: "",
   },
   {
     src: "",
     alt: "Dr. Shuchi Gupta",
+    des: "Convener, Sponsership Committee",
     contact: "",
   },
   {
     src: "",
     alt: "Dr. Mukesh Kumar",
+    des: "Incharge, UTECHNOS",
     contact: "",
   },
   {
     src: "",
     alt: "Dr. Deepak Kumar",
+    des: "Convener, Tecnical & Infrastructure Committee",
     contact: "",
   },
   {
     src: "",
     alt: "Er. Harbhinder Singh",
+    des: "Convener, Spot Purchase Committee",
     contact: "",
   },
 ];
@@ -29,50 +34,26 @@ export const Faculty = [
 export const OC = [
   {
     src: "",
-    alt: "Ishan Singh (Coordinator)",
+    alt: "Ishan Singh",
+    des: "Student Coordinator",
     contact: "",
   },
   {
     src: "",
-    alt: "Rajat Sharma (Cultural Coordinator)",
+    alt: "Rajat Sharma",
+    des: "Cultural Coordinator",
     contact: "",
   },
   {
     src: "",
-    alt: "Sumit Yadav (Technical Coordinator)",
+    alt: "Sumit Yadav",
+    des: "Technical Coordinator",
     contact: "",
   },
   {
     src: "",
-    alt: "Gouri Sharma (Financial Controller)",
-    contact: "",
-  },
-];
-
-export const SC = [
-  {
-    src: "",
-    alt: "Dr. Shuchi Gupta (Convener)",
-    contact: "",
-  },
-  {
-    src: "",
-    alt: "Ishan Singh (Student Coordinator)",
-    contact: "",
-  },
-  {
-    src: "",
-    alt: "Gouri Sharma (Financial Controller)",
-    contact: "",
-  },
-  {
-    src: "",
-    alt: "Mr. Adhyan Tiwari (Marketing Lead)",
-    contact: "",
-  },
-  {
-    src: "",
-    alt: "Ms. Aradhya (Marketing Lead)",
+    alt: "Gouri Sharma",
+    des: "Financial Controller",
     contact: "",
   },
 ];
