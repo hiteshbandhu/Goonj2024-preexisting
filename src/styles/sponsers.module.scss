@@ -36,9 +36,9 @@ $bg-gradient: linear-gradient(
         margin: 1.5rem;
     }
     a{
-        background-color: black;
+        background-color: #ff1981;
         border-radius: 22px;
-        padding: .5rem 1rem;
+        padding: .5rem 2rem;
     }
  }
  .sponsors{
@@ -66,4 +66,14 @@ $bg-gradient: linear-gradient(
         margin-bottom: 2rem;
     }
  }
+}
+@media screen and (max-width:700px) {
+    .main{
+        .sps{
+
+            a{
+                font-size: clamp(1rem, 5vw, 2rem);
+            }
+        }
+    }
 }
