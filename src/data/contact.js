@@ -54,6 +54,6 @@ export const OC = [
     src: "",
     alt: "Gouri Sharma",
     des: "Financial Controller",
-    contact: "",
+    contact: " ",
   },
 ];
