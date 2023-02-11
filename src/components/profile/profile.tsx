@@ -13,8 +13,23 @@ export default function Profile({src,alt,contact,des,email}:profileProp){
             />
             <p className={styles.name}>{alt}</p>
             <p>{des}</p>
-            { contact!="" &&<p>{contact}</p>}
-            {email!="" &&<p>@ : {email}</p>}
+            { contact!="" &&<a href={`https://api.whatsapp.com/send?phone=${contact}`} target="_blank" rel="noreferrer">
+                <Image 
+                src="/logos/logos_whatsapp-icon.png"
+                alt="WhatsApp"
+                width={30}
+                height={30}
+                />
+                </a>}
+            {email!="" &&<a href={`mailto: ${email}`}>
+                <Image 
+                    src="/logos/logos_google-gmail.png"
+                    alt="Mail"
+                    width={39.8}
+                    height={30}
+                />
+                </a>
+            }
         </div>
     )
 }

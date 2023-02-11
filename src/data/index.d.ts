@@ -17,3 +17,7 @@ interface profileProp {
   contact?: string;
   email: string;
 }
+
+interface navProp {
+  color?: string;
+}

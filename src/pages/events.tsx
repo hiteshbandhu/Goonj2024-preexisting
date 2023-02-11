@@ -43,7 +43,7 @@ export default function Events(){
           </Head>
           <main className={styles.main}>
             <header>
-              <Navbar/>
+              <Navbar color={"#AD0000"}/>   
             </header>
             <Image
             className={styles.bgred}

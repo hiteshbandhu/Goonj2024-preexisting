@@ -15,7 +15,7 @@ export default function Artist(){
           </Head>
           <main className={styles.main}>
             <header>
-              <Navbar/>
+              <Navbar color={"#AD0000"}/>
             </header>
             <div className={styles.artist}>
                 <h2>GURNAM BHULLAR</h2>
