@@ -29,10 +29,10 @@ export default function AboutUs(){
                 </p>
                 <Image 
                 className={styles.puimg}
-                src="/About/2020_9$largeimg_1357578.jpg"
+                src="/About/FBoJfiHUUAIb_Xh.jpg"
                 alt="PU"
-                width={700}
-                height={479}
+                width={2048}
+                height={1365}
                 />
             </div>
             <h3>About Goonj</h3>

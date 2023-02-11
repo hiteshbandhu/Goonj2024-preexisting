@@ -21,7 +21,28 @@ $bg-gradient: linear-gradient(
     z-index: 1;
     background: $bg-gradient;
  }
+ .sps{
+    position:absolute;
+    top:50%;
+    z-index: 5;
+    width: 100%;
+    text-align: center;
+    p,a{
+        color: azure;
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        text-decoration: none;
+        margin: 1.5rem;
+    }
+    a{
+        background-color: black;
+        border-radius: 22px;
+        padding: .5rem 1rem;
+    }
+ }
  .sponsors{
+    display: none;
     margin-top: 20vh;
     position:absolute;
     width: 100%;

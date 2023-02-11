@@ -78,20 +78,21 @@ export default function Navbar(){
                     </Link>
                 </li>
                 <li>
+                    <Link href="/about">
+                        ABOUT US
+                    </Link>
+                </li>
+                <li>
                     <Link href="/events">
                     EVENTS
                     </Link>
                 </li>
                 <li>
                     <Link href="/artist">
-                    ARTISTS
+                    STAR NIGHT
                     </Link>
                 </li>
-                <li>
-                    <Link href="/accommodation">
-                    ACCOMMODATION
-                    </Link>
-                </li>
+
             </ul>
             }
             <ul className={styles.goonjlogo}>
@@ -107,10 +108,11 @@ export default function Navbar(){
 
             {showNav && <ul className={styles.right}>
                 <li>
-                    <Link href="/about">
-                        ABOUT US
+                    <Link href="/accommodation">
+                    NIQ
                     </Link>
                 </li>
+
                 <li>
                     <Link href="/contact">
                         CONTACT US

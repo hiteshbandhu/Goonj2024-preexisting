@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 import styles from "./profile.module.scss"
-export default function Profile({src,alt,contact,des}:profileProp){
+export default function Profile({src,alt,contact,des,email}:profileProp){
     return(
         <div className={styles.container}>
             <Image 
@@ -13,7 +13,8 @@ export default function Profile({src,alt,contact,des}:profileProp){
             />
             <p className={styles.name}>{alt}</p>
             <p>{des}</p>
-            <p>{contact}</p>
+            { contact!="" &&<p>{contact}</p>}
+            {email!="" &&<p>@ : {email}</p>}
         </div>
     )
 }
