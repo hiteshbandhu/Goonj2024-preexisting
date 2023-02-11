@@ -7,7 +7,7 @@ import gsap from "gsap"
 import styles from "./navbar.module.scss"
 
 gsap.registerPlugin(Observer)
-export default function Navbar(){
+export default function Navbar({color}:navProp){
     const [showNav,setShowNav]=useState<boolean>(false)
     useEffect(()=>{
         if(window.innerWidth>1024)  setShowNav(true);
@@ -51,7 +51,7 @@ export default function Navbar(){
         <div className={styles.container} ref={ref}>
 
         <nav className={styles.navContainer} id="top">
-            <button className={styles.ham} onClick={()=>setShowNav(!showNav)}>
+            <button className={styles.ham} style={{backgroundColor:color}} onClick={()=>setShowNav(!showNav)}>
                 {!showNav && <Image 
                 src="/logos/menu.png"
                 alt="cross"
@@ -66,7 +66,7 @@ export default function Navbar(){
                 />}
             </button>
             {showNav &&
-            <ul className={styles.left}>
+            <ul className={styles.left} style={{backgroundColor:color}}>
                 <li>
                     <Link  href="https://uiet.puchd.ac.in/" target="_blank">
                         <Image
@@ -107,9 +107,9 @@ export default function Navbar(){
                 </Link>
             </ul>
 
-            {showNav && <ul className={styles.right}>
+            {showNav && <ul className={styles.right} style={{backgroundColor:color}}>
                 <li>
-                    <Link href="/accommodation">
+                    <Link href="/niq">
                     NIQ
                     </Link>
                 </li>
@@ -137,8 +137,8 @@ export default function Navbar(){
             </ul>
             }
         </nav>
-        <nav className={styles.socials} id="bottom">
-            <ul>
+        <nav className={styles.socials} id="bottom" >
+            <ul style={{backgroundColor:color}}>
                 <li>
                     <Link href="https://instagram.com/goonj.uietpu?igshid=YmMyMTA2M2Y=" target="_blank">
                         <Image
@@ -180,7 +180,7 @@ export default function Navbar(){
                     </Link>
                 </li>
                 <li>
-                    <Link href="">
+                    <Link href="mailto: goonj2023@gmail.com">
                         <Image
                         src="/logos/at.png"
                         alt="Email"

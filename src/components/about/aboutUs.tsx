@@ -45,13 +45,13 @@ export default function AboutUs(){
 The event will include Coding Competitions, Mini Marathon, an E-Sports Tournament, Cultural Performances, Fun Activities, Games, Fashion Show, EDM Night and STAR Night. The event will be hosting more than 10,000 people (approx.) over the span of 3 days, including the students from Panjab University as well as from other colleges. The reach of the event will be to 80,000 students belonging to Panjab University and other well-known institutes of tricity. Goonj 2023 has active Instagram and Facebook accounts allowing us to reach a large number of audiences.
                 </p>
                 <div className={styles.imageContainer}>
-                    <Image
+                <Image
                     className={styles.img}
                     src="/oldGoonj/flawsome1.png"
                     alt=""
                     width={2610}
                     height={1080}
-                    />
+                />
                 <Image 
                 className={styles.img}
                 src="/oldGoonj/51658548_2390312337908428_4513556160078963249_n.jpg"
@@ -67,6 +67,59 @@ The event will include Coding Competitions, Mini Marathon, an E-Sports Tournamen
                 height={1080}
                 />
                 </div>
+            </div>
+            <h3>News</h3>
+            <div className={styles.line}></div>
+            <div className={styles.news}>
+                <Image
+                className={styles.news1} 
+                src="/theme release news/WhatsApp Image 2023-02-08 at 1.07.25 PM.jpeg"
+                alt="news1"
+                width={1145}
+                height={1600}
+                />
+                <Image 
+                className={styles.news1} 
+                src="/theme release news/WhatsApp Image 2023-02-08 at 1.07.27 PM.jpeg"
+                alt="news1"
+                width={928}
+                height={1600}
+                />
+                <Image 
+                className={styles.news1} 
+                src="/star reveal news/WhatsApp Image 2023-02-11 at 10.04.39 AM.jpeg"
+                alt="news1"
+                width={1184}
+                height={1600}
+                />
+                <Image 
+                className={styles.news1} 
+                src="/theme release news/WhatsApp Image 2023-02-08 at 1.07.26 PM.jpeg"
+                alt="news1"
+                width={1076}
+                height={799}
+                />
+                <Image 
+                className={styles.news1} 
+                src="/theme release news/WhatsApp Image 2023-02-08 at 1.07.28 PM.jpeg"
+                alt="news1"
+                width={1184}
+                height={1600}
+                />
+                <Image 
+                className={styles.news1} 
+                src="/star reveal news/WhatsApp Image 2023-02-11 at 10.04.37 AM.jpeg"
+                alt="news1"
+                width={1184}
+                height={1600}
+                />
+                <Image 
+                className={styles.news1} 
+                src="/star reveal news/WhatsApp Image 2023-02-11 at 10.04.38 AM.jpeg"
+                alt="news1"
+                width={1184}
+                height={1600}
+                />
             </div>
         </div>
     )

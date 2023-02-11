@@ -81,6 +81,20 @@
 
         }
     }
+    .news{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        .news1{
+            width: 40%;
+            height: 40%;
+            border:1px solid #F0459189;
+            box-shadow: 0 0 16px 1px rgba(0,0,0,.2);
+            margin: 1rem;
+        }
+    }
 }
 
 @media screen and (max-width:1024px) {
