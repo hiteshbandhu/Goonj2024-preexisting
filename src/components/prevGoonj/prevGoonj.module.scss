@@ -75,8 +75,10 @@
 @media screen and (max-width:600px){
     .container{
         padding: .7rem;
-        h1{
-            margin: 1rem;
+        .first{
+
+            h1{
+                margin: 1rem;
         }
         h2{
             margin:.5rem;
@@ -87,5 +89,6 @@
         video{
             width:90%;
         }
+    }
     }
 }
