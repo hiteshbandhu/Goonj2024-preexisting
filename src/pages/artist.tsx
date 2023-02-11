@@ -18,7 +18,7 @@ export default function Artist(){
               <Navbar/>
             </header>
             <div className={styles.artist}>
-                <h2>1. GURNAM BHULLAR</h2>
+                <h2>GURNAM BHULLAR</h2>
                 <div className={styles.media}>
 
                 <video src="/artist/05b87024-0021-4890-bbf4-b64b2d8f6dc2.mov" className={styles.vid} controls></video>

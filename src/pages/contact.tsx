@@ -1,13 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
 import Navbar from "@/components/navbar/navbar";
-import {Faculty,OC,SC} from "../data/contact"
+import {Faculty,OC} from "../data/contact"
 import styles from "../styles/contact.module.scss"
 import { useState } from "react";
 import Profile from "@/components/profile/profile";
 
 export default function Contact(){
-    const [type,setType]=useState<string>("Faculty")
+    const [type,setType]=useState<string>("OC")
     return (
         <>
           <Head>
@@ -31,9 +31,9 @@ export default function Contact(){
            </div>
            <nav className={styles.contactNav}>
             <ul>
-              <li onClick={()=>setType("Faculty")}>Faculty</li>
-              <li onClick={()=>setType("OC")}>Organizing Team</li>
-              <li onClick={()=>setType("SC")}>Sponsorship Committee</li>
+              <li onClick={()=>setType("Faculty")}>Core Faculty Team</li>
+              <li onClick={()=>setType("OC")}>Core Students Team</li>
+              {/* <li onClick={()=>setType("SC")}>Sponsorship Committee</li> */}
             </ul>
            </nav>
               {
@@ -50,13 +50,13 @@ export default function Contact(){
                   })}
                 </div>
               }
-              {
+              {/* {
                 type=="SC" && <div className={styles.SC}>
                   {SC.map((fac,idx)=>{
                     return <Profile {...fac}  key={idx}/>
                   })}
                 </div>
-              }
+              } */}
           </main>
         </>
       );

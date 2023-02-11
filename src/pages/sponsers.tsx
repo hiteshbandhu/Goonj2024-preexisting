@@ -25,6 +25,10 @@ export default function Sponsers(){
            height={1080}
            />
            <div className={styles.tplayer}></div>
+           <div className={styles.sps}>
+            <p>Whant to sponsor us?</p>
+            <a href="/Marketing Brochure - GOONJ 2023.pdf" download>Details Here</a>
+           </div>
            <div className={styles.sponsors}>
             <h2>Title Sponsor</h2>
             <p>Coming Soon</p>

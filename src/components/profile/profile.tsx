@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 import styles from "./profile.module.scss"
-export default function Profile({src,alt,contact}:profileProp){
+export default function Profile({src,alt,contact,des}:profileProp){
     return(
         <div className={styles.container}>
             <Image 
@@ -12,6 +12,7 @@ export default function Profile({src,alt,contact}:profileProp){
                 height={75}
             />
             <p className={styles.name}>{alt}</p>
+            <p>{des}</p>
             <p>{contact}</p>
         </div>
     )
