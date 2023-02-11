@@ -125,7 +125,7 @@ export default function Navbar(){
                     <Link  href="https://puchd.ac.in/" target="_blank">
                         <Image
                         src="/logos/pu-logo.png"
-                        alt="UIET"
+                        alt="PU"
                         width={70}
                         height={70}
                         />
