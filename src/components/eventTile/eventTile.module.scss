@@ -1,0 +1,17 @@
+.container{
+    background-color: #953B75;
+    padding: .5rem;
+    display: flex;  
+    width: fit-content;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        padding: .5rem;
+        font-size: 1rem;
+
+    }
+
+}

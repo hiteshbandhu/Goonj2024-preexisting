@@ -1,0 +1,134 @@
+.container{
+    position :absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%,0);
+    background-color: white;
+    height: fit-content;
+    width:80%;
+    z-index: 2;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 4px 4px rgba(0,0,0,.3);
+    margin-bottom: 5rem;
+    h3{
+        margin-top: 2rem;
+        color: #953B75;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 1.5rem;
+        padding-left: 2rem;
+    }
+    .line{
+        background-color: #F04591;
+        height: 1px;
+        width: 50%;
+        margin: .5rem 0 1rem 0;
+    }
+    .uiet{
+        display: flex;
+        align-items: center;
+        p{
+            width: 50%;
+            text-align: justify;
+            padding: 1rem;
+            font-family: 'Poppins';
+            line-height: 1.3rem;
+        }
+        .uietimg{
+            padding: 1rem;
+            width: 50%;
+            height: 50%;
+        }
+
+    }
+    .pu{
+        display: flex;
+        align-items: center;
+        p{
+            width: 50%;
+            text-align: justify;
+            padding: 1rem;
+            font-family: 'Poppins';
+            line-height: 1.3rem;
+        }
+        .puimg{
+            padding: 1rem;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .goonj{
+        width: 100%;
+        p{
+            text-align: justify;
+            padding: 1rem;
+            font-family: 'Poppins';
+            line-height: 1.3rem;
+        }
+        .imageContainer{
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            .img{
+                padding: .4rem;
+                width: 30%;
+                height: 30%;
+                box-shadow: 0 0 4px 4px rgba(0,0,0,.3);
+
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .container{
+        padding: 1rem;
+        h3{
+            padding-left: (1rem,5vw,2rem);
+        }
+        .line{
+            width:75%;
+        }
+        .uiet{
+            flex-direction: column;
+            p{
+                width: 100%;
+                line-height: clamp(1rem, 3vw,1.3rem);
+                font-size:clamp( .75rem, 2vw,1rem);
+            }
+            .uietimg{
+                width: 100%;
+                height: 100%;
+            }
+            
+        }
+        .pu{
+            flex-direction: column;
+            p{
+                width: 100%;
+                line-height: clamp(1rem, 3vw,1.3rem);
+                font-size:clamp( .75rem, 2vw,1rem);
+
+            }
+        }
+    .goonj{
+        p{
+            line-height: clamp(1rem, 3vw,1.3rem);
+            font-size:clamp( .75rem, 2vw,1rem);
+
+        }
+        .imageContainer{
+            height: 800px;
+            width: 100%;
+            flex-direction: column;
+            .img{
+                width: 90%;
+            }
+            
+        }
+    }
+}
+}

@@ -1,0 +1,52 @@
+.container{
+    .tagLine{
+        z-index: 0;
+        position: fixed;
+        top:45%;
+        left:50%;
+        width: 35%;
+        height: 27%;
+        transform: translate(-50%,-50%);
+
+    }
+    .scrollDown{
+        position:fixed;
+        top:85%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        color: azure;
+        font-family:'Roboto mono', monospace;
+        font-weight: 600;
+        letter-spacing: .3rem;
+        animation: scrollDown 1.5s ease-out 2s infinite forwards;
+
+    }
+}
+
+@keyframes scrollDown {
+    0% {
+        top: 85%;
+    }
+    100%{
+        top:95%;
+    }
+    
+}
+
+@media screen and (max-width:1200px){
+    .container{
+
+        .tagLine{
+            height:20%
+        }
+    }
+}
+
+@media screen and (max-width:600px){
+    .container{
+
+        .tagLine{
+            height:15%
+        }
+    }
+}

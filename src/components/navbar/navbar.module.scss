@@ -1,0 +1,102 @@
+.container{
+    width:100%;
+    .navContainer{
+        z-index: 99;
+        width:100%;
+        position: fixed;
+        height:fit-content;
+        display: flex;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            align-items: center;
+        li{
+            margin: 0 1.5rem;
+            :nth-child(1){
+                text-decoration: none;
+                color:azure;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                font-size: 1.2rem;
+            }
+        }
+        }
+        .left, .right{
+            padding: .2rem .2rem;
+            background-color: #F04591;
+        }
+    }
+    .socials{
+        z-index: 99;
+        position: fixed;
+        bottom:0;
+        right:0;
+        clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+        ul{
+            display: flex;
+            align-items: center;
+            background-color: #F04591;
+            padding: 1rem;
+            padding-left: 7rem;
+            li{
+                margin: 0 2rem;
+            }
+        }
+        
+    }
+}
+@media screen and (min-width:1025px) {
+    .ham{display: none;}
+    .left{
+        border-bottom-right-radius: 2rem;
+    }
+    .right{
+        border-bottom-left-radius: 2rem;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .container{
+        .navContainer{
+            .ham{
+                position:absolute;
+                right:0;
+                border: none;
+                background-color: #F04591;
+                padding: 1rem;
+            }
+            width: 100%;
+            position: absolute;
+            right: 0;
+            top:0;
+            height:fit-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            ul{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                li{
+                    margin: 1rem 0;
+                    :nth-child(1){
+                        font-weight: 600;
+                        font-size: 1rem;
+                    }
+                }
+                .left{
+                    border-radius: none;
+                }
+                .right{
+                    border-bottom-left-radius: none;
+                }
+            }
+        }
+
+        .goonjlogo{
+            position:fixed;
+            top:0;
+            left:0;
+        }
+    }
+}

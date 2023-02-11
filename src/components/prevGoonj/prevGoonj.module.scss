@@ -1,0 +1,73 @@
+.container{
+    width:100%;
+    padding: 2rem;
+    text-align: center;
+    .first{
+        margin-top: 100vh;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            text-decoration: none;
+            color:azure;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 5rem;
+            margin: 2rem;
+        }
+        h2{
+            text-decoration: none;
+            color:azure;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 3rem;
+            margin: 1rem;
+        }
+        p{
+            width: 70%;
+            text-align: center;
+            padding: 1rem;
+            font-family: 'Poppins';
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+        }
+        video{
+            width: 50%;
+        }
+        .pastEvents{
+            // margin: 0 3rem 3rem 3rem ;
+            width: 100%;
+            display: flex;
+            justify-content:left;
+            overflow-x: scroll;
+        }
+        .pastArtists{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    p{
+        font-family: monospace;
+
+        color:azure;
+
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .container{
+        .first{
+            h1{
+                font-size: clamp(3rem, 7vw,5rem);
+            }
+            h2{
+                font-size: clamp(1.5rem,4.5vw ,3rem);
+            }
+            p{
+                font-size: clamp(.8rem, 2vw ,1.2rem);
+                line-height: clamp(1rem,3vw,1.5rem);
+            }
+        }
+    }
+}
