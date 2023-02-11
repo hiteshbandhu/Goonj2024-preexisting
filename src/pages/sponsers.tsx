@@ -26,7 +26,7 @@ export default function Sponsers(){
            />
            <div className={styles.tplayer}></div>
            <div className={styles.sps}>
-            <a href="/Marketing Brochure - GOONJ 2023.pdf" download>Download Marketing Brochure</a>
+            <a href="https://bit.ly/3Yujgba" download>Download Marketing Brochure</a>
            </div>
            <div className={styles.sponsors}>
             <h2>Title Sponsor</h2>
