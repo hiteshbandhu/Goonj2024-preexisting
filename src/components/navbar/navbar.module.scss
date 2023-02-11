@@ -26,6 +26,12 @@
             background-color: #F04591;
         }
     }
+    .goonjlogo{
+            .img{
+                width: 100%;
+                height: 75px;
+            }
+    }
     .socials{
         z-index: 99;
         position: fixed;
@@ -84,19 +90,21 @@
                         font-size: 1rem;
                     }
                 }
-                .left{
-                    border-radius: none;
-                }
-                .right{
-                    border-bottom-left-radius: none;
-                }
+            }
+            .left{
+                border-radius: none;
+                padding-top: 100px;
+            }
+            .right{
+                border-bottom-left-radius: none;
             }
         }
 
         .goonjlogo{
             position:fixed;
             top:0;
-            left:0;
+            left:50%;
+            transform: translateX(-50%);
         }
     }
 }

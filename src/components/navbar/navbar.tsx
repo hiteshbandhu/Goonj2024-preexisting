@@ -61,8 +61,8 @@ export default function Navbar(){
                 {showNav && <Image 
                 src="/logos/cross.png"
                 alt="cross"
-                width={40}
-                height={40}
+                width={50}
+                height={50}
                 />}
             </button>
             {showNav &&
@@ -98,10 +98,11 @@ export default function Navbar(){
             <ul className={styles.goonjlogo}>
                 <Link href="/">
                     <Image
-                    src="/logos/goonj logooo_simple logo4.png"
+                    className={styles.img}
+                    src="/logos/goonjTpExtDte.png"
                     alt="Goonj"
-                    width={75}
-                    height={75}
+                    width={2789}
+                    height={861}
                     />
                 </Link>
             </ul>

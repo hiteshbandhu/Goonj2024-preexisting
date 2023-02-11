@@ -21,7 +21,7 @@ export const Faculty = [
     email: "sgupta@pu.ac.in",
   },
   {
-    src: "",
+    src: "/faculty/Deepak.JPG",
     alt: "Dr. Deepak Kumar",
     des: "Convener, Tecnical & Infrastructure Committee",
     contact: "",
