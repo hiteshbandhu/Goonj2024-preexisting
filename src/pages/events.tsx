@@ -6,6 +6,9 @@ import gsap from "gsap/dist/gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import { useEffect, useRef } from "react";
 
+import {events} from "../data/events"
+import EventCard from "@/components/eventCard/eventCard";
+
 gsap.registerPlugin(ScrollTrigger)
 export default function Events(){
     const ref=useRef<HTMLDivElement>(null);
@@ -16,8 +19,8 @@ export default function Events(){
         const tl=gsap.timeline({
           scrollTrigger:{
             trigger:trigger.current,
-            start:"60% 90%",
-            end:"60% 60%",
+            start:"start 95%",
+            end:"start 75%",
             scrub:1,
             // markers:true
           }
@@ -57,8 +60,11 @@ export default function Events(){
               <p id="scrollDown" className={styles.scrollDown}>Scroll Down</p>
 
             </div>
-            <div className={styles.event} ref={trigger}>
-              <h2>Coming soon</h2>
+            <div className={styles.event}>
+              <div className={styles.eventCont} ref={trigger}></div>
+              {events.map((event,indx)=>{
+                return <EventCard {...event} key={indx} />
+              })}
             </div>
           </main>
         </>

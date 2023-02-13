@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width:15%;
+    padding: .5rem;
+    cursor: pointer;
+    background-color: #AD0000;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 12px 4px rgba(0,0,0,.4);
+    .imgSection{
+        width: 100%;
+        height: 100%;
+        .img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .details{
+        p{
+            padding-top: .5rem;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            color: azure;
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .container{
+        width: 30%;
+        .details{
+            p{
+                font-size: clamp(.7rem,2vw ,1rem);
+            }
+        }
+    }
+}
+@media screen and (max-width:428px) {
+    .container{
+        width: 80%;
+        .details{
+            p{
+                font-size: clamp(.7rem,2vw ,1rem);
+            }
+        }
+    }
+}

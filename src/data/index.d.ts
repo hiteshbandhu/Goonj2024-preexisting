@@ -21,3 +21,10 @@ interface profileProp {
 interface navProp {
   color?: string;
 }
+
+interface eventCardProp {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+}
