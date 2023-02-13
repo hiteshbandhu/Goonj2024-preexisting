@@ -27,7 +27,7 @@ export default function Events(){
         })
          tl.to('#head',{opacity:0})
          tl.to('#scrollDown',{zIndex:-1},0)
-         tl.to(trigger.current,{background:"rgba(0,0,0,.4)"})
+         tl.to('#events',{background:"rgba(0,0,0,.5)"},0)
 
 
       },ref)
@@ -56,15 +56,18 @@ export default function Events(){
             height={1143}
             />
             <div ref={ref}>
+
+            <div>
               <h1 id="head" className={styles.head}>EVENTS</h1>
               <p id="scrollDown" className={styles.scrollDown}>Scroll Down</p>
 
             </div>
-            <div className={styles.event}>
-              <div className={styles.eventCont} ref={trigger}></div>
+            <div id="events" className={styles.event}>
+              <div className={styles.line} ref={trigger}></div>
               {events.map((event,indx)=>{
                 return <EventCard {...event} key={indx} />
               })}
+            </div>
             </div>
           </main>
         </>

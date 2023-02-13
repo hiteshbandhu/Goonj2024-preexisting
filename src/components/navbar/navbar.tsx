@@ -53,12 +53,14 @@ export default function Navbar({color}:navProp){
         <nav className={styles.navContainer} id="top">
             <button className={styles.ham} style={{backgroundColor:color}} onClick={()=>setShowNav(!showNav)}>
                 {!showNav && <Image 
+                className={styles.hamimg}
                 src="/logos/menu.png"
                 alt="cross"
-                width={40}
-                height={40}
+                width={50}
+                height={50}
                 />}
                 {showNav && <Image 
+                className={styles.hamimg}
                 src="/logos/cross.png"
                 alt="cross"
                 width={50}
