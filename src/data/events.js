@@ -49,7 +49,7 @@ export const events = [
   },
   {
     src: "/events pics/png_20230211_101706_0000.png",
-    alt: "RAT IN MAZE",
+    alt: "RAT IN THE MAZE",
     width: 1587,
     height: 2245,
   },
@@ -104,12 +104,6 @@ export const events = [
   {
     src: "/events pics/png_20230211_102254_0000.png",
     alt: "STANDUP COMEDY",
-    width: 1587,
-    height: 2245,
-  },
-  {
-    src: "/events pics/png_20230211_102314_0000.png",
-    alt: "2 Vs 2 CRICKET COMPETITION",
     width: 1587,
     height: 2245,
   },

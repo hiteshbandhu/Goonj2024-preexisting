@@ -170,7 +170,7 @@ export default function Navbar({color}:navProp){
                     </Link>
                 </li>
                 <li>
-                    <Link href="">
+                    <Link href="https://www.youtube.com/@goonjuietpu" target="_blank">
                         <Image
                         src="/logos/yt.png"
                         alt="YouTube"

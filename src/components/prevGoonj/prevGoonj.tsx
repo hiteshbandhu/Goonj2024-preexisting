@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect, useRef } from "react";
 import gsap from "gsap/dist/gsap";
-
+import YouTube from "react-youtube";
 import {pastEvent, pastArtist} from "../../data/pastEvents"
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import styles from "./prevGoonj.module.scss"
@@ -44,7 +44,7 @@ export default function PrevGoonj({refer}:prevGoonjProp){
                 of the University. The spirit of the fest is to promote the cultural as well as the technical alacrity among the students. Moreover, the motive is to spread a zeal among students relieving them from the stressful schedule of an engineering atmosphere.
                 </p>
                 <h2>The theme for Goonj 2023 is</h2>
-                <video src="/video-output-49414D60-4EF0-4984-A290-284036BCFF07.MOV" controls/>
+                <YouTube className={styles.video} videoId="dpB7sXgNDfs" />
                 <h2>Past Events</h2>
                 <div className={styles.pastEvents}>
                     {pastEvent.map((event,index)=>{
