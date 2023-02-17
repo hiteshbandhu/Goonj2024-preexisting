@@ -52,12 +52,12 @@ export default function PrevGoonj({refer}:prevGoonjProp){
                     })}
                 </div>
 
-                <h2>Previous Artists</h2>
+                {/* <h2>Previous Artists</h2>
                 <div className={styles.pastArtists}>
                     {pastArtist.map((artist,index)=>{
                         return <EventTile {...artist} key={index} />
                     })}
-                </div>
+                </div> */}
 
             </div>
             <p>Goonj, UIET PU CHD</p>
