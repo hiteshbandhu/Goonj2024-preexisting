@@ -47,6 +47,12 @@ export default function PrevGoonj({refer}:prevGoonjProp){
                 <div className={styles.videoContainer} >
                     <iframe  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Goonj 2k23 - Theme Release" src="https://www.youtube.com/embed/dpB7sXgNDfs?enablejsapi=1&amp;origin=http%3A%2F%2Flocalhost%3A3000&amp;widgetid=3" id="widget4" allowFullScreen className={styles.video}></iframe>
                 </div>
+                <h2>Star Night</h2>
+                <div className={styles.pastArtists}>
+                    {pastArtist.map((artist,index)=>{
+                        return <EventTile {...artist} key={index} />
+                    })}
+                </div>
                 <h2>Past Events</h2>
                 <div className={styles.pastEvents}>
                     {pastEvent.map((event,index)=>{
@@ -54,12 +60,6 @@ export default function PrevGoonj({refer}:prevGoonjProp){
                     })}
                 </div>
 
-                <h2>Star Night</h2>
-                <div className={styles.pastArtists}>
-                    {pastArtist.map((artist,index)=>{
-                        return <EventTile {...artist} key={index} />
-                    })}
-                </div>
 
             </div>
             <p>Goonj, UIET PU CHD</p>
