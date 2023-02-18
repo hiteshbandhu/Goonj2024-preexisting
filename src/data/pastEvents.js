@@ -53,10 +53,10 @@ export const pastEvent = [
 ];
 export const pastArtist = [
   {
-    src: "/oldGoonj/50557615_327382151088862_9121999951837224148_n.jpg",
-    alt: "Mohit Gaur",
-    title: "Mohit Gaur",
-    width: w,
-    height: h,
+    src: "/artist/Gurnaam Bhullar (2).png",
+    alt: "Gurnaam Bhullar",
+    title: "Gurnaam Bhullar",
+    width: 28 * 7,
+    height: 280,
   },
 ];

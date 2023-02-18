@@ -13,7 +13,7 @@
         position:absolute;
         padding: .5rem;
         background-color: azure;
-        height: 50%;
+        height: 70%;
         .img{
             width:100%;
             height: 100%;
@@ -35,4 +35,11 @@
         }
     }
 
+}
+@media screen and (max-width: 1024px){
+.popupContainer{
+    .bg{
+        height: 50%;
+    }
+}
 }

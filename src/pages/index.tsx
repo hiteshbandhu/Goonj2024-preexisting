@@ -29,7 +29,7 @@ export default function Home() {
         height={3000}
         />
        <header>
-          <Navbar/>
+          <Navbar color={"#800020"}/>
        </header>
        <Hero/>
       </main>
