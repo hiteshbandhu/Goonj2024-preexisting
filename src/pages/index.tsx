@@ -4,10 +4,12 @@ import Image from "next/image";
 import Navbar from "@/components/navbar/navbar";
 import Hero from "@/components/hero/hero";
 import styles from "@/styles/Home.module.scss";
+import Popup from "@/components/popUp/popUp";
 import PrevGoonj from "@/components/prevGoonj/prevGoonj";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 export default function Home() {
   const ref=useRef<HTMLDivElement>(null)
+  const [popup,setPopup]=useState<boolean>(true);
   return (
     <>
       <Head>
@@ -17,6 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main} ref={ref}>
+        {popup && <Popup setpopup={setPopup} />}
         <Image
         id="stage"
         className={styles.bgImg}

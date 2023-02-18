@@ -44,7 +44,10 @@ export default function PrevGoonj({refer}:prevGoonjProp){
                 of the University. The spirit of the fest is to promote the cultural as well as the technical alacrity among the students. Moreover, the motive is to spread a zeal among students relieving them from the stressful schedule of an engineering atmosphere.
                 </p>
                 <h2>The theme for Goonj 2023 is</h2>
-                <YouTube className={styles.video} videoId="dpB7sXgNDfs" />
+                <div className={styles.videoContainer} >
+                    {/* <YouTube className={styles.video} videoId="dpB7sXgNDfs" /> */}
+                    <iframe  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Goonj 2k23 - Theme Release" src="https://www.youtube.com/embed/dpB7sXgNDfs?enablejsapi=1&amp;origin=http%3A%2F%2Flocalhost%3A3000&amp;widgetid=3" id="widget4" allowFullScreen className={styles.video}></iframe>
+                </div>
                 <h2>Past Events</h2>
                 <div className={styles.pastEvents}>
                     {pastEvent.map((event,index)=>{

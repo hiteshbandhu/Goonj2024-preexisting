@@ -28,3 +28,7 @@ interface eventCardProp {
   width: number;
   height: number;
 }
+
+interface popupProp {
+  setpopup: Dispatch<SetStateAction<boolean>>;
+}
