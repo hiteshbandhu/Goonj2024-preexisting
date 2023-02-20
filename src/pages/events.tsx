@@ -4,16 +4,18 @@ import Navbar from "@/components/navbar/navbar";
 import styles from "../styles/events.module.scss"
 import gsap from "gsap/dist/gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import {events} from "../data/events"
 import EventCard from "@/components/eventCard/eventCard";
+import EventPopup from "@/components/eventPopup/eventPopup";
 
 gsap.registerPlugin(ScrollTrigger)
 export default function Events(){
     const ref=useRef<HTMLDivElement>(null);
     const trigger=useRef<HTMLDivElement>(null);
-
+    const [popup, setpopup]=useState<boolean>(false);
+    const [event, setEvent]=useState<eventCardProp>(events[0])
     useEffect(()=>{
       const ctx=gsap.context(()=>{
         const tl=gsap.timeline({
@@ -56,6 +58,11 @@ export default function Events(){
             height={1143}
             />
             <div ref={ref}>
+            {
+              popup && <div className={styles.popup}>
+                <EventPopup {...event}  setpopup={setpopup}/>
+              </div>
+            }
 
             <div>
               <h1 id="head" className={styles.head}>EVENTS</h1>
@@ -65,7 +72,7 @@ export default function Events(){
             <div id="events" className={styles.event}>
               <div className={styles.line} ref={trigger}></div>
               {events.map((event,indx)=>{
-                return <EventCard {...event} key={indx} />
+                return <EventCard {...event} key={indx} setEvent={setEvent} setpopup={setpopup}/>
               })}
             </div>
             </div>

@@ -27,6 +27,13 @@ interface eventCardProp {
   alt: string;
   width: number;
   height: number;
+  desc?: string[];
+  link?: string;
+  contact?: string[];
+  registerLink?: string;
+  registerDesc?: string[];
+  setpopup?: Dispatch<SetStateAction<boolean>>;
+  setEvent?: Dispatch<SetStateAction<eventCardProp>>;
 }
 
 interface popupProp {

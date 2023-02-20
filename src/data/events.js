@@ -1,5 +1,56 @@
 export const events = [
   {
+    src: "/events pics/IMG-20230218-WA0018.jpg",
+    alt: "BE A DIRECTOR",
+    width: 1587,
+    height: 2245,
+    desc: [
+      `Did you ever have the craving to sit on the canvas chair and shout the words "action" and "cut"? 💡
+    Or have the craziest idea for the  climax scene of a movie. 🎬 `,
+      `Then the time has come to reveal your mind-bending  and inspiring imaginative skills. All the cinemaphiles out there, gear up to create your own vision of the film. ✨`,
+    ],
+
+    link: "https://drive.google.com/file/d/170CH4lSb5IG7gUK6TZWfBpgZOz3t8TLR/view?usp=share_link",
+    registerDesc: ["Registration fees: Rs 30"],
+    registerLink: "https://forms.gle/ofGd35cEsn6cLz33A",
+    contact: [
+      "Ishan Singh: 8874495003",
+      "Krrish Verma: 9855598354",
+      "Kamit Rastogi: 8800721941",
+    ],
+  },
+  {
+    src: "/events pics/20230220_123225_0000.png",
+    alt: "IPL 2023 AUCTION",
+    width: 1587,
+    height: 2245,
+    desc: [
+      `"1....2....3.....sold !!" 💲`,
+
+      `Greetings everyone💫
+    Auctions are the zenith to a strong team.From the cost to the chemistry between players, everything matters. 💡`,
+
+      `UIET's official fest GOONJ is hosting a simulation of the IPL auction, where participants could take on the role of team owners and bid for players with a virtual budget💰.`,
+
+      `Be ready to experience the thrill and flaunt your smartness and effectiveness in the anticipated IPL auctions. ✨`,
+
+      `#pick_a_peak 🏏`,
+    ],
+
+    link: "https://drive.google.com/file/d/12J5qDVFZm4Z8qtioRAiWTt3BELwYzAGT/view?usp=share_link",
+    registerDesc: [
+      `🏏Registration fee: Rs 160/ per team (Team Size : 3-4)`,
+      `🏏Last date for registration: 1st march till 12:00 AM (midnight)`,
+      `🏏Event date: 2nd March, 2023`,
+    ],
+    registerLink: "https://forms.gle/HxceyTttPT3VoXDv9",
+    contact: [
+      "Ishan Singh: 8874495003",
+      "Karan Sidhu : 9988953866",
+      "Shorya : 8368324412",
+    ],
+  },
+  {
     src: "/events pics/20230211_101550_0000.png",
     alt: "FUTSAL",
     width: 1587,
