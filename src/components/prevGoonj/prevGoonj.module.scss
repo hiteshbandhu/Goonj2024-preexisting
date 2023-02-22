@@ -53,8 +53,12 @@
     }
     p{
         font-family: monospace;
-
         color:azure;
+        margin-top: .5rem;
+        a{
+            text-decoration: none;
+            color:azure;
+        }
 
     }
 }

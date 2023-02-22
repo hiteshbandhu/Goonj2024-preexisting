@@ -152,26 +152,6 @@ export default function Navbar({color}:navProp){
                     </Link>
                 </li>
                 <li>
-                    <Link href="">
-                        <Image
-                        src="/logos/twitter.png"
-                        alt="Twitter"
-                        width={logoSize*1.25}
-                        height={logoSize}
-                        />
-                    </Link>
-                </li>
-                <li>
-                    <Link href="">
-                        <Image
-                        src="/logos/fb.png"
-                        alt="Facebook"
-                        width={logoSize}
-                        height={logoSize}
-                        />
-                    </Link>
-                </li>
-                <li>
                     <Link href="https://www.youtube.com/@goonjuietpu" target="_blank">
                         <Image
                         src="/logos/yt.png"

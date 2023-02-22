@@ -63,6 +63,7 @@ export default function PrevGoonj({refer}:prevGoonjProp){
 
             </div>
             <p>Goonj, UIET PU CHD</p>
+            <p>Design & Developed by <a href="https://www.linkedin.com/in/yuvraj-bind/">Yuvraj Bind</a></p>
         </div>
     )
 }
