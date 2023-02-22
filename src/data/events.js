@@ -51,6 +51,13 @@ export const events = [
     ],
   },
   {
+    src: "/events pics/WhatsApp Image 2023-02-22 at 2.12.58 PM.jpeg",
+    alt: "CODING COMPETITION",
+    width: 1587,
+    height: 2245,
+    registerLink: " https://forms.gle/qUbbohreXcsd3fjz7",
+  },
+  {
     src: "/events pics/20230211_101550_0000.png",
     alt: "FUTSAL",
     width: 1587,

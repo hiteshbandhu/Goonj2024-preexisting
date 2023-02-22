@@ -19,7 +19,7 @@ export default function eventCard({src,alt,width,desc,height,setpopup, contact, 
     //     )
     // }
     return(
-        <a className={styles.container} href={link} target="_blank" rel="noreferrer">
+        <a className={styles.container} href={registerLink} target="_blank" rel="noreferrer">
             <div className={styles.imgSection}>
                 <Image
                 className={styles.img}
