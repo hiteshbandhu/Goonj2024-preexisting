@@ -1,6 +1,6 @@
 export const events = [
   {
-    src: "/events pics/IMG-20230218-WA0018.jpg",
+    src: "/events pics/33.PNG",
     alt: "BE A DIRECTOR",
     width: 1587,
     height: 2245,
@@ -20,7 +20,113 @@ export const events = [
     ],
   },
   {
-    src: "/events pics/20230220_123225_0000.png",
+    src: "/events pics/14.png",
+    alt: "BOLLYWOOD QUIZ",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSch0a-Ue9OUXbivN7uQX5xJd5maCR6kK7JPdFA0AskBbL4NQA/viewform",
+  },
+  {
+    src: "/events pics/15.png",
+    alt: "BOLLYWOOD SYNDROME",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSfZarr7L0W5fYKmRNwKqqCNyB844ZRP1F9qp0K_9wbScioQDQ/viewform",
+  },
+  {
+    src: "/events pics/5.png",
+    alt: "MR & MISS GOONJ",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSeW5zF9I9ykT8smJV9UT2ovOfvbtUTOOYo07LOLyBO6X0X-dw/viewform",
+  },
+  {
+    src: "/events pics/6.png",
+    alt: "GROOV UP",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSfsIYPjB-8TxtTZdiaKx6NuQzZSQKCOwd5YHoFxm0ya8JKePA/viewform",
+  },
+  {
+    src: "/events pics/7.png",
+    alt: "TALENT SHOW",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLScCxMDt-9HI17f_oWdRIEYnXwG7pC2GFCDpI1qPLFZrkxQNGg/viewform",
+  },
+
+  {
+    src: "/events pics/12.png",
+    alt: "BHANGRA COMPETITION",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSdc5Jv_c-d0DC8CocMVu8L7lu6kwwWO4O5vDhYeGRBiEbBPXw/viewform",
+  },
+  {
+    src: "/events pics/31.png",
+    alt: "BHANGRA WARS",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLScF1F5Xuj2f4YHzQ849QEiB3ut3BS0ArHKccvB4l1Pr_Hj-FQ/viewform",
+  },
+  {
+    src: "/events pics/20.png",
+    alt: "UNSUNG BALLADS",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLScK0CLTL9lVV0oEBHOPSrpilzfkJ4BkkcCEbkq5x-5ehAFQ0w/viewform",
+  },
+  {
+    src: "/events pics/23.png",
+    alt: "ART COMPETITION",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSeTgVTG5o0Rzp8U5RB9oJHl6Z0JTcFyVZSstEiCmMcp0DotoA/viewform",
+  },
+  {
+    src: "/events pics/28.png",
+    alt: "NUKKAD NATAK",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSeOIjKhOSj4zDvCET42aNkFQ2NmQDzUIgbMhyagdqBUAtPtig/viewform",
+  },
+  {
+    src: "/events pics/16.png",
+    alt: "VALORANT",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSeaK9FOtBEi1kscz3awdc7DIWN-Cwx6AeJrN_JcP84evGSp0w/viewform",
+  },
+  {
+    src: "/events pics/39.png",
+    alt: "BGMI",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSc4V4y4chP9yF708WvXTriyElG9Glm8hCKqSwFFi7vbUYdvlA/viewform",
+  },
+  {
+    src: "/events pics/29.png",
+    alt: "CHESS TOURNAMENT",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLScNUkWwH2yx02aXC1wbIz-8zj7bb4peEDG1LkkcSc0Th5u30w/viewform",
+  },
+
+  {
+    src: "/events pics/11.png",
     alt: "IPL 2023 AUCTION",
     width: 1587,
     height: 2245,
@@ -51,124 +157,130 @@ export const events = [
     ],
   },
   {
-    src: "/events pics/WhatsApp Image 2023-02-22 at 2.12.58 PM.jpeg",
+    src: "/events pics/21.png",
+    alt: "TREASURE HUNT",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSf7Dke7mlk0gwrytLcHZhdvje0E53o4f1mOlCvWSBQf1inIBQ/viewform",
+  },
+  {
+    src: "/events pics/22.png",
+    alt: "ARM WRESTLING",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSeo3Op3-X0uoRsOVFm65RzSzCGdHHOd2jWfk59envFOLwiWNQ/viewform",
+  },
+  {
+    src: "/events pics/26.png",
+    alt: "2 VS 2 CRICKET",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSc2EBi1g-B_fqpsYo7GktHT7yG7Kt0Qg0j10HVkGW452nUWPQ/viewform",
+  },
+  {
+    src: "/events pics/40.png",
+    alt: "DODGE BALL",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSdrL8SHXQ5aIpMs-oEz80ERMlUEOD91mzB29wYCv0fr4jG7Cw/viewform",
+  },
+  {
+    src: "/events pics/13.png",
+    alt: "FUTSAL",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSdZjpd7F91GLVSP6vOdSd-VlCYKGtEkoFJryTEF29slY7JDgA/viewform",
+  },
+  {
+    src: "/events pics/41.png",
+    alt: "THE UNSOLVED MYSTERY",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSeMxeS8K1sP2nTgYLEuy1uSgpxsnHIeZhtaVt0LIHt_hzcx6w/viewform",
+  },
+  {
+    src: "/events pics/38.PNG",
+    alt: "UI CHALLENGE",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLScCjXHigUD8CdZmQSxbwQwUc_SkUPKFheMGbXP5iW6hmIYO5A/viewform",
+  },
+  {
+    src: "/events pics/24.PNG",
     alt: "CODING COMPETITION",
     width: 1587,
     height: 2245,
     registerLink: " https://forms.gle/qUbbohreXcsd3fjz7",
   },
   {
-    src: "/events pics/20230211_101550_0000.png",
-    alt: "FUTSAL",
-    width: 1587,
-    height: 2245,
-  },
-  {
-    src: "/events pics/20230211_101632_0000.png",
-    alt: "TALENT SHOW",
-    width: 1587,
-    height: 2245,
-  },
-  {
-    src: "/events pics/20230211_101831_0000.png",
-    alt: "CHESS TOURNAMENT",
-    width: 1587,
-    height: 2245,
-  },
-  {
-    src: "/events pics/20230211_102030_0000.png",
-    alt: "NUKKAD NATAK",
-    width: 1587,
-    height: 2245,
-  },
-  {
-    src: "/events pics/20230211_102052_0000.png",
-    alt: "Mr & Miss Goonj",
-    width: 1587,
-    height: 2245,
-  },
-  {
-    src: "/events pics/20230211_102116_0000.png",
-    alt: "SOLO SINGING",
-    width: 1587,
-    height: 2245,
-  },
-  {
-    src: "/events pics/20230211_102140_0000.png",
-    alt: "ART COMPETIION",
-    width: 1587,
-    height: 2245,
-  },
-  {
-    src: "/events pics/20230211_102158_0000.png",
-    alt: "TURN-COAT",
-    width: 1587,
-    height: 2245,
-  },
-  {
-    src: "/events pics/png_20230211_101706_0000.png",
-    alt: "RAT IN THE MAZE",
-    width: 1587,
-    height: 2245,
-  },
-  {
-    src: "/events pics/png_20230211_101736_0000.png",
-    alt: "TREASURE HUNT",
-    width: 1587,
-    height: 2245,
-  },
-  {
-    src: "/events pics/png_20230211_101809_0000.png",
-    alt: "E-SPORT TOURNAMENT",
-    width: 1587,
-    height: 2245,
-  },
-  {
-    src: "/events pics/png_20230211_101903_0000.png",
-    alt: "EDM-NIGHT",
-    width: 1587,
-    height: 2245,
-  },
-  {
-    src: "/events pics/png_20230211_101924_0000.png",
+    src: "/events pics/18.png",
     alt: "DEBUG THE ERROR",
     width: 1587,
     height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSfZuU9fdF_eMVAdqumLoEKGnMq5XXbbXTlqVKUWfLyrIIqrGQ/viewform",
   },
   {
-    src: "/events pics/png_20230211_101947_0000.png",
-    alt: "BOLLYWOOD QUIZ",
+    src: "/events pics/42.PNG",
+    alt: "DESIGN US",
     width: 1587,
     height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLScKgMnanArshRxH3hI80M-5nVhTE5Ly6x4myoKKYNCsBvuZBQ/viewform",
   },
   {
-    src: "/events pics/png_20230211_102009_0000.png",
-    alt: "MINI MARATHON",
+    src: "/events pics/10.png",
+    alt: "STRATEGEM",
     width: 1587,
     height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSch6qtDGSyekxOLm45sDdyS375vArsnddybjCVx-dlBu55uLg/viewform",
   },
   {
-    src: "/events pics/png_20230211_102217_0000.png",
-    alt: "STRATEGUM",
+    src: "/events pics/25.png",
+    alt: "TECHNICAL HUNT",
     width: 1587,
     height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLScHcHTd6AhTCLF-39SIdLwbgNzvxM8zNoa1VfgJn6SrkEQEKA/viewform",
   },
   {
-    src: "/events pics/png_20230211_102235_0000.png",
-    alt: "ARM WRESTLING",
+    src: "/events pics/35.png",
+    alt: "BULLS & BEARS",
     width: 1587,
     height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSfd3_TSEdVYr2tPQ32Pm7HOWdC8hKYb3TC4HXo2co7L-YNRzw/viewform",
   },
   {
-    src: "/events pics/png_20230211_102254_0000.png",
-    alt: "STANDUP COMEDY",
+    src: "/events pics/30.png",
+    alt: "TURNCOAT",
     width: 1587,
     height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSe0jqXSI-ppJuF1JlkX-7eL1UCfNPvbCVNX_Mv3n752ytzJww/viewform",
   },
   {
-    src: "/events pics/png_20230211_102344_0000.png",
-    alt: "TECHNICAL EVENTS",
+    src: "/events pics/32.png",
+    alt: "PHOTOGRAPHY COMPETITION",
     width: 1587,
     height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLScTsMPJ07AtFOrHDYk6QI3cg-09TuIfutCzvdtoujs5cvoduQ/viewform",
+  },
+  {
+    src: "/events pics/36.png",
+    alt: "PHOTOGRAPHY QUIZ",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSeb-HtYruaSDnIoyvCg1YtxcVGP3cPfchvoLIgW6v97-RyJrw/viewform",
   },
 ];
