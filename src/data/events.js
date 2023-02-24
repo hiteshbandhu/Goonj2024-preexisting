@@ -1,6 +1,6 @@
 export const events = [
   {
-    src: "/events pics/33.PNG",
+    src: "/events pics/33.png",
     alt: "BE A DIRECTOR",
     width: 1587,
     height: 2245,
@@ -205,7 +205,7 @@ export const events = [
       "https://docs.google.com/forms/d/e/1FAIpQLSeMxeS8K1sP2nTgYLEuy1uSgpxsnHIeZhtaVt0LIHt_hzcx6w/viewform",
   },
   {
-    src: "/events pics/38.PNG",
+    src: "/events pics/38.png",
     alt: "UI CHALLENGE",
     width: 1587,
     height: 2245,
@@ -213,7 +213,7 @@ export const events = [
       "https://docs.google.com/forms/d/e/1FAIpQLScCjXHigUD8CdZmQSxbwQwUc_SkUPKFheMGbXP5iW6hmIYO5A/viewform",
   },
   {
-    src: "/events pics/24.PNG",
+    src: "/events pics/24.png",
     alt: "CODING COMPETITION",
     width: 1587,
     height: 2245,
@@ -228,7 +228,7 @@ export const events = [
       "https://docs.google.com/forms/d/e/1FAIpQLSfZuU9fdF_eMVAdqumLoEKGnMq5XXbbXTlqVKUWfLyrIIqrGQ/viewform",
   },
   {
-    src: "/events pics/42.PNG",
+    src: "/events pics/42.png",
     alt: "DESIGN US",
     width: 1587,
     height: 2245,
