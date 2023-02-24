@@ -21,7 +21,7 @@ export default function Artist(){
                 <h2>GURNAM BHULLAR</h2>
                 <div className={styles.media}>
 
-                <video src="/artist/05b87024-0021-4890-bbf4-b64b2d8f6dc2.mov" className={styles.vid} controls></video>
+                <video src="/artist/05b87024-0021-4890-bbf4-b64b2d8f6dc2.mov" className={styles.vid} controls autoPlay />
                 <Image
                 className={styles.img}
                 src="/artist/19nov_2.png"
