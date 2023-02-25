@@ -63,9 +63,9 @@ export const pastArtist = [
 
 export const anchor = [
   {
-    src: "/artist/IMG_2952.jpg",
+    src: "/artist/png_20230225_154137_0000.png",
     alt: "RJ Kashish",
-    title: "RJ Kashish",
+    title: "RJ Kashish MyFM",
     width: 28 * 7,
     height: 280,
   },
