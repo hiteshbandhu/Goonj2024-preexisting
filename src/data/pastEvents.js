@@ -60,3 +60,13 @@ export const pastArtist = [
     height: 280,
   },
 ];
+
+export const anchor = [
+  {
+    src: "/artist/IMG_2952.jpg",
+    alt: "RJ Kashish",
+    title: "RJ Kashish",
+    width: 28 * 7,
+    height: 280,
+  },
+];

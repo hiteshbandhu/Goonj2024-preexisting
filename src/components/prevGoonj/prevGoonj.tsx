@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect, useRef } from "react";
 import gsap from "gsap/dist/gsap";
 import YouTube from "react-youtube";
-import {pastEvent, pastArtist} from "../../data/pastEvents"
+import {pastEvent, pastArtist, anchor} from "../../data/pastEvents"
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import styles from "./prevGoonj.module.scss"
 import EventTile from "../eventTile/eventTile";
@@ -50,6 +50,12 @@ export default function PrevGoonj({refer}:prevGoonjProp){
                 <h2>Star Night</h2>
                 <div className={styles.pastArtists}>
                     {pastArtist.map((artist,index)=>{
+                        return <EventTile {...artist} key={index} />
+                    })}
+                </div>
+                <h2>Guest Anchor</h2>
+                <div className={styles.pastArtists}>
+                    {anchor.map((artist,index)=>{
                         return <EventTile {...artist} key={index} />
                     })}
                 </div>
