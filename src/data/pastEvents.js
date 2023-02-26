@@ -65,7 +65,8 @@ export const anchor = [
   {
     src: "/artist/png_20230225_154137_0000.png",
     alt: "RJ Kashish",
-    title: "RJ Kashish MyFM",
+    title: "RJ Kashish",
+    degi: "MyFM",
     width: 28 * 7,
     height: 280,
   },

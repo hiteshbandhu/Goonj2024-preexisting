@@ -5,7 +5,7 @@ import styles from "../styles/events.module.scss"
 import gsap from "gsap/dist/gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import { useEffect, useRef, useState } from "react";
-
+import Marque from "@/components/marque/marque";
 import {events} from "../data/events"
 import EventCard from "@/components/eventCard/eventCard";
 import EventPopup from "@/components/eventPopup/eventPopup";
@@ -47,6 +47,7 @@ export default function Events(){
             <link rel="icon" href="/favicon.ico" />
           </Head>
           <main className={styles.main}>
+            <Marque />
             <header>
               <Navbar color={"#AD0000"}/>   
             </header>

@@ -1,10 +1,12 @@
-import { useEffect, useLayoutEffect, useRef } from "react";
+import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap/dist/gsap";
-import YouTube from "react-youtube";
 import {pastEvent, pastArtist, anchor} from "../../data/pastEvents"
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
+import EventCard from "../eventCard/eventCard";
 import styles from "./prevGoonj.module.scss"
+import { events } from "@/data/events";
 import EventTile from "../eventTile/eventTile";
+import Link from "next/link";
 gsap.registerPlugin(ScrollTrigger)
 export default function PrevGoonj({refer}:prevGoonjProp){
     const ref =useRef<HTMLDivElement>(null)
@@ -59,6 +61,15 @@ export default function PrevGoonj({refer}:prevGoonjProp){
                         return <EventTile {...artist} key={index} />
                     })}
                 </div>
+
+                <h2>Events</h2>
+                <p>Total Prizes to be won: INR 70,000/- Goodies / Gifts / Coupons are extra, over and above the specified INR</p>
+                <div className={styles.pastEvents}>
+                    {events.slice(0,5).map((event,index)=>{
+                        return <EventCard {...event} key={index} />
+                    })}
+                </div>
+                <Link href="/events" style={{width:"250px"}}> <p>Show More -&gt;</p></Link>
                 <h2>Past Events</h2>
                 <div className={styles.pastEvents}>
                     {pastEvent.map((event,index)=>{

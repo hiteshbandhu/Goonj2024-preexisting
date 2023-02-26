@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Navbar from "@/components/navbar/navbar";
 import styles from "../styles/niq.module.scss"
+import Marque from "@/components/marque/marque";
 export default function Niq(){
     return (
         <>
@@ -12,6 +13,7 @@ export default function Niq(){
             <link rel="icon" href="/favicon.ico" />
           </Head>
           <main className={styles.main}>
+            <Marque/>
            <header>
               <Navbar  color={"#2C4938"} />
            </header>

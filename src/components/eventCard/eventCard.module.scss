@@ -1,12 +1,13 @@
 .container{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width:15%;
     padding: .5rem;
     cursor: pointer;
     background-color: #9F0000;
     text-decoration: none;
-    margin-bottom: 2rem;
+    margin: 2rem 1rem;
     box-shadow: 0 0 12px 4px rgba(0,0,0,.4);
     z-index: 20;
     .imgSection{
@@ -20,11 +21,13 @@
         }
     }
     .details{
+        width: 100%;
         p{
-            padding-top: .5rem;
             font-family: 'Poppins', sans-serif;
             font-size: 1rem;
             font-weight: 600;
+            padding:.5rem 0 0 0 !important;
+            width: 100% !important;
             color: azure;
         }
     }

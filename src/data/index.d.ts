@@ -6,6 +6,7 @@ interface eventTileProp {
   src: string;
   alt: string;
   title: string;
+  degi?: string;
   width: number;
   height: number;
 }

@@ -3,6 +3,7 @@ import Image from "next/image";
 import AboutUs from "@/components/about/aboutUs";
 import Navbar from "@/components/navbar/navbar";
 import styles from "../styles/about.module.scss"
+import Marque from "@/components/marque/marque";
 
 export default function About(){
     return (
@@ -14,6 +15,7 @@ export default function About(){
             <link rel="icon" href="/favicon.ico" />
           </Head>
           <main className={styles.main}>
+            <Marque />
            <header>
               <Navbar/>
            </header>
