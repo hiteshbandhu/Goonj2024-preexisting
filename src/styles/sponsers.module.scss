@@ -1,7 +1,7 @@
 $bg-gradient: linear-gradient(
   180deg,
   rgba(0, 0, 0, 0.6) 0%,
-  rgba(0, 0, 0, 0.9) 100%
+  rgba(0, 0, 0, 1) 100%
 );
 .main{
     width: 100%;
@@ -22,11 +22,12 @@ $bg-gradient: linear-gradient(
     background: $bg-gradient;
  }
  .sps{
-    position:absolute;
-    top:50%;
+    // position:absolute;
+    // top:50%;
     z-index: 5;
     width: 100%;
     text-align: center;
+    margin: 5rem 0;
     p,a{
         color: azure;
         font-size: 2rem;
@@ -42,7 +43,6 @@ $bg-gradient: linear-gradient(
     }
  }
  .sponsors{
-    display: none;
     margin-top: 20vh;
     position:absolute;
     width: 100%;
@@ -76,4 +76,8 @@ $bg-gradient: linear-gradient(
             }
         }
     }
+}
+
+.white{
+    background-color: white;
 }

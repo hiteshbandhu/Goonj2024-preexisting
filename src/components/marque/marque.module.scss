@@ -1,16 +1,24 @@
-
+$bg-gradient: linear-gradient(
+  180deg,
+  rgba(0, 0, 0, 0.9) 0%,
+  rgba(0,0,0,.4)  50%,
+  rgba(0, 0, 0, 0.1) 100%
+);
 .container{
     width: 100%;
 
     position: absolute;
-    top:70px;
+    top:0px;
     z-index: 4;
     .move{
+        margin-top: 70px;
         position: relative;
         left: 100vw;
         display: flex;
         animation: example 10s linear 0s infinite forwards;
-
+        :nth-child(n){
+            margin: 1rem;
+        }
     }
 }
 
@@ -21,4 +29,9 @@
     100%{
         left: -10vw;
     }
+}
+.white{
+    background-color: rgba($color: #ffffff, $alpha: .9);
+    border-radius: 50%;
+    padding: .5rem;
 }

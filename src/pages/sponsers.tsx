@@ -5,6 +5,7 @@ import Navbar from "@/components/navbar/navbar";
 import styles from "../styles/sponsers.module.scss"
 
 export default function Sponsers(){
+  const size=150
     return (
         <>
           <Head>
@@ -25,20 +26,35 @@ export default function Sponsers(){
            height={1080}
            />
            <div className={styles.tplayer}></div>
-           <div className={styles.sps}>
-            <a href="https://bit.ly/3Yujgba" download>Download Marketing Brochure</a>
-           </div>
            <div className={styles.sponsors}>
             <h2>Title Sponsor</h2>
             <p>Coming Soon</p>
             <h2>Co-Sponsor</h2>
             <p>Coming Soon</p>
             <h3>Education Partner</h3>
-            <p>Coming Soon</p>
+            <Image 
+            className={styles.white}
+            src="/sponsors/EDCOSMO LOGO.png"
+            alt="Edcosmo"
+            width={size}
+            height={size}
+            />
             <h3>Sporting Partner</h3>
-            <p>Coming Soon</p>
-            <h3>Health & Wellness Partner</h3>
-            <p>Coming Soon</p>
+            <Image 
+            className={styles.white}
+            src="/sponsors/Untitled design (13).png"
+            alt="Decathlon"
+            width={size}
+            height={size}
+            />
+            <h3>Radio Partner</h3>
+            <Image 
+            className={styles.white}
+            src="/sponsors/Untitled design (14).png"
+            alt="MyFM"
+            width={size}
+            height={size}
+            />
             <h3>Logistic Partner</h3>
             <p>Coming Soon</p>
             <h3>Travel Partner</h3>
@@ -53,6 +69,9 @@ export default function Sponsers(){
             <p>Coming Soon</p>
             <h3>Miscellaneous</h3>
             <p>Coming Soon</p>
+           <div className={styles.sps}>
+            <a href="https://bit.ly/3Yujgba" download>Download Marketing Brochure</a>
+           </div>
            </div>
           </main>
         </>
