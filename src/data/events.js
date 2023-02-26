@@ -283,4 +283,36 @@ export const events = [
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSeb-HtYruaSDnIoyvCg1YtxcVGP3cPfchvoLIgW6v97-RyJrw/viewform",
   },
+  {
+    src: "/events pics/Goonj 2023 Event Brochure (15).png",
+    alt: "HOP & PLAY",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSeb-HtYruaSDnIoyvCg1YtxcVGP3cPfchvoLIgW6v97-RyJrw/viewform",
+  },
+  {
+    src: "/events pics/Goonj 2023 Event Brochure (18).png",
+    alt: "PSYQUIZ",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSerLtrgUiTmHH1DeZtx5M9IwmT3x2WvoF0oWrUUDZA37CwZUg/viewform",
+  },
+  {
+    src: "/events pics/Goonj 2023 Event Brochure (19).png",
+    alt: "DANCING BOTTLE",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSeWjthgzIGTy06Qhq6FGWTpcPnY8Q6J10v5uDSHuYQHOEdyeA/viewform",
+  },
+  {
+    src: "/events pics/Goonj 2023 Event Brochure (20).png",
+    alt: "PING PONG",
+    width: 1587,
+    height: 2245,
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSdAfv5yjZYImjT9Dqxbu2HrwkuULL4pSMZRXj5JegeMC0kVkg/viewform",
+  },
 ];
