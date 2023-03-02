@@ -27,6 +27,13 @@ export default function Marque(){
             width={size}
             height={size}
             />
+            <Image
+            className={styles.white}
+            src="/sponsors/SBI Sec 25 Logo.png"
+            alt="edcosmo"
+            width={size}
+            height={size}
+            />
             </div>
         </div>
     )
