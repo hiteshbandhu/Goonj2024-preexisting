@@ -70,6 +70,7 @@ export default function PrevGoonj({refer}:prevGoonjProp){
                     })}
                 </div>
                 <Link href="/events" style={{width:"250px"}}> <p>Show More -&gt;</p></Link>
+                <p>*Most of the cash prizes have already been distributed by us. In case of any Pending  prize money please contact Prof. Harbhinder Singh, Incharge, Spot purchase committee, Goonj 2023, Contact at 9316103516.</p>
                 <h2>Past Events</h2>
                 <div className={styles.pastEvents}>
                     {pastEvent.map((event,index)=>{
