@@ -13,7 +13,7 @@ export default function Niq(){
             <link rel="icon" href="/favicon.ico" />
           </Head>
           <main className={styles.main}>
-            <Marque/>
+            {/* <Marque/> */}
            <header>
               <Navbar  color={"#2C4938"} />
            </header>

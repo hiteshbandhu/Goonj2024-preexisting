@@ -27,10 +27,6 @@ export default function Sponsers(){
            />
            <div className={styles.tplayer}></div>
            <div className={styles.sponsors}>
-            <h2>Title Sponsor</h2>
-            <p>Coming Soon</p>
-            <h2>Co-Sponsor</h2>
-            <p>Coming Soon</p>
             <h3>Education Partner</h3>
             <Image 
             className={styles.white}
@@ -55,20 +51,6 @@ export default function Sponsers(){
             width={size}
             height={size}
             />
-            <h3>Logistic Partner</h3>
-            <p>Coming Soon</p>
-            <h3>Travel Partner</h3>
-            <p>Coming Soon</p>
-            <h3>Media Partner</h3>
-            <p>Coming Soon</p>
-            <h3>Sound Partner</h3>
-            <p>Coming Soon</p>
-            <h3>Fitness Partner</h3>
-            <p>Coming Soon</p>
-            <h3>Event Partner</h3>
-            <p>Coming Soon</p>
-            <h3>Miscellaneous</h3>
-            <p>Coming Soon</p>
            <div className={styles.sps}>
             <a href="https://bit.ly/3Yujgba" download>Download Marketing Brochure</a>
            </div>

@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main} ref={ref}>
-        <Marque/>
+        {/* <Marque/> */}
         {popup && <Popup setpopup={setPopup} />}
         <Image
         id="stage"

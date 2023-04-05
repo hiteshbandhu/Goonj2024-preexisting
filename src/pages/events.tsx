@@ -47,7 +47,7 @@ export default function Events(){
             <link rel="icon" href="/favicon.ico" />
           </Head>
           <main className={styles.main}>
-            <Marque />
+            {/* <Marque /> */}
             <header>
               <Navbar color={"#AD0000"}/>   
             </header>
