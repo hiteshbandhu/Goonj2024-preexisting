@@ -65,7 +65,7 @@ export default function AboutUs() {
           10,000 people (approx.) over the span of 3 days, including the
           students from Panjab University as well as from other colleges. The
           reach of the event will be to 80,000 students belonging to Panjab
-          University and other well-known institutes of tricity. Goonj 2023 has
+          University and other well-known institutes of tricity. Goonj 2024 has
           active Instagram and Facebook accounts allowing us to reach a large
           number of audiences.
         </p>
