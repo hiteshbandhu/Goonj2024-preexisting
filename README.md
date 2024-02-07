@@ -1,16 +1,5 @@
 ### New Documentation
 
-# Goonj'24 Website
-
-#### How to Set up this website for development
-
-1. Go to an empty folder and open terminal in VSCODE
-2. `git init`
-3. `git pull https://github.com/hiteshbandhu/goonj24.git`
-4. `cd goonj-app-24`
-5. `npm install`
-6. `npm run start`
-
 UIET Goonj 2024 official website.
 
 ### © Goonj Digital Operations Team
