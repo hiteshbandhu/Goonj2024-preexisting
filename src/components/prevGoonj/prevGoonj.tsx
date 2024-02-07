@@ -61,18 +61,18 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
             className={styles.video}
           ></iframe>
         </div>
-        <h2>Star Night</h2>
+        <h2>Previous Stars</h2>
         <div className={styles.pastArtists}>
           {pastArtist.map((artist, index) => {
             return <EventTile {...artist} key={index} />;
           })}
         </div>
-        <h2>Guest Anchor</h2>
+        {/* <h2>Guest Anchor</h2>
         <div className={styles.pastArtists}>
           {anchor.map((artist, index) => {
             return <EventTile {...artist} key={index} />;
           })}
-        </div>
+        </div> */}
 
         <h2>Past Events</h2>
         <p>
@@ -91,7 +91,7 @@ export default function PrevGoonj({ refer }: prevGoonjProp) {
         {/* <p>
           *Most of the cash prizes have already been distributed by us. In case
           of any Pending prize money please contact Prof. Harbhinder Singh,
-          Incharge, Spot purchase committee, Goonj 2023, Contact at 9316103516.
+          Incharge, Spot purchase committee, Goonj 2024, Contact at 9316103516.
         </p> */}
         <h2>Past Events</h2>
         <div className={styles.pastEvents}>

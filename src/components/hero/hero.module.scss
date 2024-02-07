@@ -60,15 +60,35 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
-  .container {
-    .tagLine {
-      width: 75%;
-      height: auto;
-    }
+.container {
+  .tagLine {
+    width: 75%;
+    height: auto;
   }
 }
 
 .headingWelcome {
   z-index: 10;
+}
+.marketingBrochure {
+  z-index: 0;
+  background: #08d1f5;
+  position: absolute;
+  top: 75%;
+  text-align: center;
+  padding: 2vh 1vh;
+  font-family: "Poppins";
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: #000 1px 0 5px;
+  text-decoration: none;
+  border-radius: 1000px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 1200px) {
+  .marketingBrochure {
+    font-size: 12px;
+  }
 }
