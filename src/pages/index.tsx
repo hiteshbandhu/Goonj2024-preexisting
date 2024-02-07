@@ -9,8 +9,9 @@ import PrevGoonj from "@/components/prevGoonj/prevGoonj";
 import { useRef, useState } from "react";
 import Marque from "@/components/marque/marque";
 export default function Home() {
-  const ref=useRef<HTMLDivElement>(null)
-  const [popup,setPopup]=useState<boolean>(true);
+  const ref = useRef<HTMLDivElement>(null);
+  const [popup, setPopup] = useState<boolean>(true);
+
   return (
     <>
       <Head>
@@ -21,21 +22,19 @@ export default function Home() {
       </Head>
       <main className={styles.main} ref={ref}>
         {/* <Marque/> */}
-        {popup && <Popup setpopup={setPopup} />}
-        <Image
-        id="stage"
-        className={styles.bgImg}
-        src="/8117254_2092.jpg"
-        alt="background"
-        width={6000}
-        height={3000}
+        {/* {popup && <Popup setpopup={setPopup} />} */}
+        <img
+          id="stage"
+          className={styles.bgImg}
+          src="https://firebasestorage.googleapis.com/v0/b/goonj-2k24.appspot.com/o/back-asset_dark.jpg?alt=media&token=c703457c-da78-497c-a217-3d15a456855a"
+          alt="background"
         />
-       <header>
-          <Navbar color={"#a02a91"}/>
-       </header>
-       <Hero/>
+        <header>
+          <Navbar color={"#00203E"} />
+        </header>
+        <Hero />
       </main>
-       <PrevGoonj refer={ref}/>
+      <PrevGoonj refer={ref} />
     </>
   );
 }
