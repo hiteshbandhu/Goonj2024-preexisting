@@ -1,5 +1,3 @@
-### New Documentation
-
 # Goonj'24 Website
 
 #### How to Set up this website for development
