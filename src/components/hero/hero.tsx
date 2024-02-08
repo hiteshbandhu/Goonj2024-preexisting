@@ -1,6 +1,4 @@
-import Image from "next/image";
 import styles from "./hero.module.scss";
-import Dancers from "../dancers/dancers";
 
 export default function Hero() {
   const tagSize = 200;

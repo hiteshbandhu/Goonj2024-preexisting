@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import gsap from "gsap/dist/gsap";
 import { pastEvent, pastArtist, anchor } from "../../data/pastEvents";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
@@ -11,30 +11,23 @@ gsap.registerPlugin(ScrollTrigger);
 export default function PrevGoonj({ refer }: prevGoonjProp) {
   const ref = useRef<HTMLDivElement>(null);
   const bg = useRef<HTMLDivElement>(null);
-  useLayoutEffect(() => {
-    const ctx = gsap.context(() => {
-      const tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: ref.current,
-          start: "top 90%",
-          end: "top 60%",
-          scrub: 1,
-          // markers:true,
-        },
-      });
-      tl.to("#scrollDown", { opacity: 0 }, 0);
-      tl.to(bg.current, { backgroundColor: "rgba(0,0,0,.7)" }, 0);
-      tl.to("#dancers", { opacity: 0 }, 0);
-      tl.to("#dancers1", { opacity: 0 }, 0);
-      tl.to("#dancers2", { opacity: 0 }, 0);
-      tl.to("#tagLine", { opacity: 0 }, 0);
-    }, [refer]);
+  useEffect(() => {
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: ref.current,
+        start: "top 90%",
+        end: "top 60%",
+        scrub: 1,
+      },
+    });
+    tl.to("#scrollDown", { opacity: 0 }, 0);
+    tl.to(bg.current, { backgroundColor: "rgba(0,0,0,.7)" }, 0);
+    tl.to("#dancers, #dancers1, #dancers2, #tagLine", { opacity: 0 }, 0);
+
     return () => {
-      ctx.revert();
       ScrollTrigger.killAll();
     };
-  }, [refer, ref]);
-
+  }, [ref]);
   return (
     <div className={styles.container} ref={bg}>
       <div className={styles.first}>
