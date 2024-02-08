@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Observer from "gsap/dist/Observer";
 import gsap from "gsap";
 
-import styles from "./navbar.module.scss";
+import styles from "./navbar.module.css";
 
 gsap.registerPlugin(Observer);
 export default function Navbar({ color }: navProp) {

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import styles from "./aboutUs.module.scss";
+import styles from "./aboutUs.module.css";
 export default function AboutUs() {
   return (
     <div className={styles.container}>

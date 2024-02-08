@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import styles from "./profile.module.scss"
+import styles from "./profile.module.css"
 export default function Profile({src,alt,contact,des,email}:profileProp){
     return(
         <div className={styles.container}>

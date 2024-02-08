@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Navbar from "@/components/navbar/navbar";
-import styles from "../styles/artist.module.scss"
+import styles from "../styles/artist.module.css"
 export default function Artist(){
 
 

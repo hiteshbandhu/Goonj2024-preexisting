@@ -1,0 +1,66 @@
+/* Direct application of the gradient defined by the SCSS variable $bg-gradient */
+.main .artist {
+    min-height: 100vh;
+    background: linear-gradient(
+      180deg,
+      rgba(50, 0, 0, 0.9) 0%,
+      rgba(255, 0, 0, 1) 50%,
+      rgba(0, 0, 0, 0.9) 100%
+    );
+    padding: 15vh 2rem 2rem 2rem;
+  }
+  
+  .main .artist h2 {
+    text-decoration: none;
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .main .artist .media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .main .artist .media .vid {
+    width: 70%;
+    border: 7px solid white;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    height: fit-content;
+  }
+  
+  .main .artist .media .img {
+    width: 30%;
+    height: 45%;
+    z-index: 1;
+    /* The commented-out border style is preserved as a comment */
+    /* border: 7px solid white; */
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.5);
+    border-top-right-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+  }
+  
+  .main .artist p {
+    text-align: center;
+    margin-top: 4rem;
+    text-decoration: none;
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  
+  @media screen and (max-width: 820px) {
+    .main .artist h2 {
+      font-size: clamp(2rem, 10vw, 5rem);
+    }
+  
+    .main .artist p {
+      font-size: clamp(1rem, 5vw, 2rem);
+    }
+  }
+  

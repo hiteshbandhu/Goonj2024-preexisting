@@ -1,0 +1,123 @@
+.popupContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    background-color: azure;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+  }
+  .popupContainer .imgSection {
+    width: 30%;
+  }
+  .popupContainer .imgSection .img {
+    width: 100%;
+    height: max-content;
+  }
+  .popupContainer .desc {
+    width: 50%;
+    height: 100%;
+    font-family: 'Poppins';
+    padding: 1rem;
+  }
+  .popupContainer .desc h2 {
+    font-size: 4rem;
+    text-align: center;
+    line-height: 4rem;
+    margin-top: 40%;
+  }
+  .popupContainer .desc h3 {
+    font-size: 2rem;
+  }
+  .popupContainer .desc .container {
+    overflow-y: scroll;
+    text-align: justify;
+    height: 90%;
+    line-height: 1.3rem;
+  }
+  .popupContainer .desc .container p {
+    margin-top: 1rem;
+  }
+  .popupContainer .desc .container .register {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: azure;
+    text-decoration: none;
+  }
+  .popupContainer .desc .container .register p {
+    background-color: crimson;
+    padding: 1rem;
+    width: fit-content;
+  }
+  .popupContainer .cross {
+    color: azure;
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+    border-radius: 50%;
+    border: 4px solid white;
+    font-family: "Poppins", sans-serif;
+    padding: 0.3rem 0.4rem;
+    cursor: pointer;
+  }
+  .line {
+    height: 3px;
+    background-color: #FF0000;
+    margin: 0.5rem 0;
+  }
+  @media screen and (max-width: 800px) {
+    .popupContainer {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .popupContainer .imgSection {
+      width: 50%;
+    }
+    .popupContainer .imgSection .img {
+      width: 100%;
+      height: max-content;
+    }
+    .popupContainer .desc {
+      width: 80%;
+    }
+    .popupContainer .desc .container {
+      height: 60%;
+    }
+    .popupContainer .desc .container p {
+      font-size: 0.85rem;
+    }
+    .popupContainer .desc h2 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      text-align: center;
+      margin-top: 40%;
+    }
+    .popupContainer .desc h2 .container {
+      background-color: #a02a91;
+      padding: 0.5rem;
+      display: flex;
+      width: fit-content;
+      flex-direction: column;
+      margin: 1rem;
+      align-items: center;
+    }
+    .popupContainer .desc h2 .container p {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      padding: 0.5rem 0.5rem 0 0.5rem !important;
+      font-size: 1rem;
+      margin: 0px;
+    }
+    .popupContainer .desc h3 {
+      font-size: clamp(1rem, 5vw, 2rem);
+    }
+  }
+  

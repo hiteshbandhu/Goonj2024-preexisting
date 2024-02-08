@@ -1,5 +1,5 @@
 import Image from "next/image"
-import styles from "./eventTile.module.scss"
+import styles from "./eventTile.module.css"
 export default function EventTile({src,alt,title,width,height, degi}:eventTileProp){
     return(
         <div className={styles.container}>

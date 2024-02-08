@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./eventPopup.module.scss";
+import styles from "./eventPopup.module.css";
 
 export default function EventPopup({
   src,

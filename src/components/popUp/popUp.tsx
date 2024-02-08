@@ -1,6 +1,6 @@
 
 import Image from "next/image"
-import styles from "./popUp.module.scss"
+import styles from "./popUp.module.css"
 export default function Popup({setpopup}:popupProp){
     return(
         <div className={styles.popupContainer}>

@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import styles from  "./eventCard.module.scss"
+import styles from  "./eventCard.module.css"
 export default function EventCard({src,alt,width,desc,height,setpopup, contact, link, registerDesc, registerLink, setEvent}:eventCardProp){
     // const handelClick = () =>{
     //     setpopup(true)

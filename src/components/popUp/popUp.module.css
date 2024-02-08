@@ -1,0 +1,41 @@
+.popupContainer {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.popupContainer .bg {
+  position: absolute;
+  padding: 0.5rem;
+  background-color: azure;
+  height: 70%;
+}
+.popupContainer .bg .img {
+  width: 100%;
+  height: 100%;
+}
+.popupContainer .bg .cross {
+  color: azure;
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: black;
+  border-radius: 50%;
+  border: 4px solid white;
+  font-family: "Poppins", "sans-serif";
+  padding: 0.3rem 0.4rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+  .popupContainer .bg {
+    height: 50%;
+  }
+}

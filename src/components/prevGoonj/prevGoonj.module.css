@@ -1,0 +1,99 @@
+.container {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+}
+.container .first {
+  margin-top: 100vh;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .first h1 {
+  text-decoration: none;
+  color: azure;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  margin: 2rem;
+}
+.container .first h2 {
+  text-decoration: none;
+  color: azure;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  margin: 1rem;
+}
+.container .first p {
+  width: 70%;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.container .first .videoContainer {
+  width: 50%;
+}
+.container .first .videoContainer .video {
+  width: 100%;
+  aspect-ratio: 1.7777777778;
+}
+.container .first .pastEvents {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  overflow-x: scroll;
+}
+.container .first .pastArtists {
+  display: flex;
+  justify-content: center;
+}
+.container p {
+  font-family: monospace;
+  color: azure;
+  margin-top: 0.5rem;
+}
+.container p a {
+  text-decoration: none;
+  color: azure;
+}
+@media screen and (max-width: 1200px) {
+  .container .first h1 {
+    font-size: clamp(3rem, 7vw, 5rem);
+  }
+  .container .first h2 {
+    font-size: clamp(1.5rem, 4.5vw, 3rem);
+  }
+  .container .first p {
+    font-size: clamp(0.8rem, 2vw, 1.2rem);
+    line-height: clamp(1rem, 3vw, 1.5rem);
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 0.7rem;
+  }
+  .container .first h1 {
+    margin: 1rem;
+  }
+  .container .first h2 {
+    margin: 0.5rem;
+  }
+  .container .first p {
+    padding: 0.5rem;
+  }
+  .container .first .videoContainer {
+    width: 90%;
+  }
+  .container .first .videoContainer .video {
+    width: 100%;
+  }
+}
+.bottomCopyright {
+  color: #fff;
+  text-shadow: 0 0 7px #08d1f5, 0 0 10px #08d1f5, 0 0 21px #08d1f5;
+}

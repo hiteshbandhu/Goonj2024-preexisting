@@ -1,4 +1,4 @@
-import styles from "./hero.module.scss";
+import styles from "./hero.module.css";
 
 export default function Hero() {
   const tagSize = 200;

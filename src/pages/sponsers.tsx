@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Navbar from "@/components/navbar/navbar";
 
-import styles from "../styles/sponsers.module.scss"
+import styles from "../styles/sponsers.module.css"
 
 export default function Sponsers(){
   const size=150

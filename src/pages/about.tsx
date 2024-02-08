@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import AboutUs from "@/components/about/aboutUs";
 import Navbar from "@/components/navbar/navbar";
-import styles from "../styles/about.module.scss"
+import styles from "../styles/about.module.css"
 
 export default function About(){
     return (

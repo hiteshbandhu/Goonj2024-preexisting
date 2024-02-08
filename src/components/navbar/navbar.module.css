@@ -1,0 +1,119 @@
+.container {
+  width: 100%;
+}
+.container .navContainer {
+  z-index: 99;
+  width: 100%;
+  position: fixed;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+.container .navContainer ul {
+  display: flex;
+  align-items: center;
+}
+.container .navContainer ul li {
+  margin: 0 1.5rem;
+}
+.container .navContainer ul li :nth-child(1) {
+  text-decoration: none;
+  color: azure;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.container .navContainer .left, .container .navContainer .right {
+  padding: 0.2rem 0.2rem;
+  background-color: #08d1f5;
+  color: #fff;
+  background: #040041;
+  background: linear-gradient(90deg, #413d7b 0%, #05325d 47%, #010739 100%);
+}
+.container .goonjlogo .img {
+  width: 100%;
+  height: 80px;
+}
+.container .socials {
+  z-index: 99;
+  position: fixed;
+  bottom: 30%;
+  right: 0;
+  clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+.container .socials ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #043b45;
+  padding: 1rem;
+  justify-content: space-between;
+}
+.container .socials ul li {
+  margin: 1rem 0rem;
+  margin-left: 1rem;
+}
+@media screen and (min-width: 1025px) {
+  .ham {
+    display: none;
+  }
+  .left {
+    border-bottom-right-radius: 2rem;
+  }
+  .right {
+    border-bottom-left-radius: 2rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container .navContainer {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .container .navContainer .ham {
+    position: absolute;
+    right: 0;
+    border: none;
+    background-color: #08d1f5;
+    padding: 1rem;
+  }
+  .container .navContainer .ham .hamimg {
+    width: 25px;
+    height: 25px;
+  }
+  .container .navContainer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container .navContainer ul li {
+    margin: 1rem 0;
+  }
+  .container .navContainer ul li :nth-child(1) {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .container .navContainer .left {
+    border-radius: none;
+    padding-top: 100px;
+  }
+  .container .navContainer .right {
+    border-bottom-left-radius: none;
+  }
+  .container .goonjlogo {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+  .socials {
+    display: none;
+  }
+}

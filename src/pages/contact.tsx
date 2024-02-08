@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Navbar from "@/components/navbar/navbar";
 import {Faculty,OC} from "../data/contact"
-import styles from "../styles/contact.module.scss"
+import styles from "../styles/contact.module.css"
 import { useState } from "react";
 import Profile from "@/components/profile/profile";
 

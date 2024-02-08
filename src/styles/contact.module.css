@@ -1,0 +1,80 @@
+/* Applying the gradient defined by the SCSS variable $bg-gradient */
+.main .top {
+  position: fixed;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.8) 80%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+  width: 100%;
+  height: 28vh;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.main .img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 28vh;
+  z-index: 0;
+}
+
+.main .contactNav {
+  position: fixed;
+  width: 100%;
+  top: 20%;
+  z-index: 2;
+}
+
+.main .contactNav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main .contactNav ul li {
+  text-align: center;
+  width: 150px;
+  color: azure;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.main .faculty, .main .OC, .main .SC {
+  position: absolute;
+  top: 30%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: -1;
+}
+
+.main .faculty > :nth-child(n), .main .OC > :nth-child(n), .main .SC > :nth-child(n) {
+  width: 50%;
+  margin: 1rem 0;
+}
+
+.main .faculty > :nth-child(1), .main .OC > :nth-child(1), .main .SC > :nth-child(1) {
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .main .img {
+    position: fixed;
+    width: 150%;
+    top: 0;
+    left: -25%;
+    height: 28vh;
+    z-index: 0;
+  }
+
+  .main .contactNav ul li {
+    font-size: clamp(1rem, 3vw, 1.2rem);
+  }
+}

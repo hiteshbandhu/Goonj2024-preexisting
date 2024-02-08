@@ -3,7 +3,7 @@ import gsap from "gsap/dist/gsap";
 import { pastEvent, pastArtist, anchor } from "../../data/pastEvents";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import EventCard from "../eventCard/eventCard";
-import styles from "./prevGoonj.module.scss";
+import styles from "./prevGoonj.module.css";
 import { events } from "@/data/events";
 import EventTile from "../eventTile/eventTile";
 import Link from "next/link";

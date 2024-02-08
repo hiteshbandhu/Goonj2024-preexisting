@@ -1,0 +1,139 @@
+.container {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: white;
+    height: fit-content;
+    width: 80%;
+    z-index: 2;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 5rem;
+  }
+  .container h3 {
+    margin-top: 2rem;
+    color: #953B75;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+  }
+  .container .line {
+    background-color: #F04591;
+    height: 1px;
+    width: 50%;
+    margin: 0.5rem 0 1rem 0;
+  }
+  .container .uiet {
+    display: flex;
+    align-items: center;
+  }
+  .container .uiet p {
+    width: 50%;
+    text-align: justify;
+    padding: 1rem;
+    font-family: 'Poppins';
+    line-height: 1.3rem;
+  }
+  .container .uiet .uietimg {
+    padding: 1rem;
+    width: 50%;
+    height: 50%;
+  }
+  .container .pu {
+    display: flex;
+    align-items: center;
+  }
+  .container .pu p {
+    width: 50%;
+    text-align: justify;
+    padding: 1rem;
+    font-family: 'Poppins';
+    line-height: 1.3rem;
+  }
+  .container .pu .puimg {
+    padding: 1rem;
+    width: 50%;
+    height: 50%;
+  }
+  .container .goonj {
+    width: 100%;
+  }
+  .container .goonj p {
+    text-align: justify;
+    padding: 1rem;
+    font-family: 'Poppins';
+    line-height: 1.3rem;
+  }
+  .container .goonj .imageContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .container .goonj .imageContainer .img {
+    padding: 0.4rem;
+    width: 30%;
+    height: 30%;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.3);
+  }
+  .container .news {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .container .news .news1 {
+    width: 40%;
+    height: 40%;
+    border: 1px solid #F0459189;
+    box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.2);
+    margin: 1rem;
+  }
+  @media screen and (max-width: 1024px) {
+    .container {
+      padding: 1rem;
+    }
+    .container h3 {
+      padding-left: 1rem, 5vw, 2rem;
+    }
+    .container .line {
+      width: 75%;
+    }
+    .container .uiet {
+      flex-direction: column;
+    }
+    .container .uiet p {
+      width: 100%;
+      line-height: clamp(1rem, 3vw, 1.3rem);
+      font-size: clamp(0.75rem, 2vw, 1rem);
+    }
+    .container .uiet .uietimg {
+      width: 100%;
+      height: 100%;
+    }
+    .container .pu {
+      flex-direction: column;
+    }
+    .container .pu p {
+      width: 100%;
+      line-height: clamp(1rem, 3vw, 1.3rem);
+      font-size: clamp(0.75rem, 2vw, 1rem);
+    }
+    .container .goonj p {
+      line-height: clamp(1rem, 3vw, 1.3rem);
+      font-size: clamp(0.75rem, 2vw, 1rem);
+    }
+    .container .goonj .imageContainer {
+      height: 800px;
+      width: 100%;
+      flex-direction: column;
+    }
+    .container .goonj .imageContainer .img {
+      width: 90%;
+    }
+  }
+  

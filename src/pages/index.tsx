@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import Navbar from "@/components/navbar/navbar";
 import Hero from "@/components/hero/hero";
-import styles from "@/styles/Home.module.scss";
+import styles from "@/styles/Home.module.css";
 import Popup from "@/components/popUp/popUp";
 import PrevGoonj from "@/components/prevGoonj/prevGoonj";
 import { useRef, useState } from "react";

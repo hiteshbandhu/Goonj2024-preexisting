@@ -1,5 +1,5 @@
 import Image from "next/image"
-import styles from "./marque.module.scss"
+import styles from "./marque.module.css"
 export default function Marque(){
     const size =70;
     return (

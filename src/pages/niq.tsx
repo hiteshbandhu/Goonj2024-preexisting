@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Navbar from "@/components/navbar/navbar";
-import styles from "../styles/niq.module.scss"
+import styles from "../styles/niq.module.css"
 import Marque from "@/components/marque/marque";
 export default function Niq(){
     return (

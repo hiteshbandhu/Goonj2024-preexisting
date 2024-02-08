@@ -1,5 +1,5 @@
 import Image from "next/image"
-import styles from "./dancers.module.scss"
+import styles from "./dancers.module.css"
 export default function Dancers(){
     return(
         <div style={{position:"fixed", top:"40%"}}>

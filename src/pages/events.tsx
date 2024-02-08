@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Navbar from "@/components/navbar/navbar";
-import styles from "../styles/events.module.scss"
+import styles from "../styles/events.module.css"
 import gsap from "gsap/dist/gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import { useEffect, useRef, useState } from "react";

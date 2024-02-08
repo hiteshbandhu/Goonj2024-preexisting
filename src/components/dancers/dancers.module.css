@@ -1,0 +1,18 @@
+.vectDance {
+  z-index: 2;
+  position: relative;
+  left: calc(190px);
+  scale: 1;
+}
+.vectDance1 {
+  z-index: 2;
+  position: relative;
+  top: calc(-30px - 20px);
+  left: calc(200px);
+  scale: 1;
+}
+.vectDance2 {
+  z-index: 2;
+  position: relative;
+  scale: 1;
+}
